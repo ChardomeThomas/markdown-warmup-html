@@ -1,13 +1,23 @@
 .couleur{
-color: 	#0000FF ;
+  color: 	#0000FF ;
 }
+
 table, th, td {
-   border: 1px solid white;
-   border-collapse: collapse;
-   border-spacing: 0;
-   font-size: 15px;
+  border: 1px solid white;
+}
+table {
+  border-collapse: collapse;
+  width: 25%;
+}
+th {
+  height: 70px;
+}
+.center {
+  margin-left:40%;
+  margin-right:15%;
 }
 body{
   background-color:black;
   color: white;
+  cursor: url('totoro.cur'), pointer;
 }
