@@ -1,0 +1,13 @@
+.couleur{
+color: 	#0000FF ;
+}
+table, th, td {
+   border: 1px solid white;
+   border-collapse: collapse;
+   border-spacing: 0;
+   font-size: 15px;
+}
+body{
+  background-color:black;
+  color: white;
+}
