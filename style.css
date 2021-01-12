@@ -1,7 +1,14 @@
+h1, p.entete {
+  text-align: center;
+}
 .couleur{
   color: 	#0000FF ;
 }
-
+img.photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 table, th, td {
   border: 1px solid white;
 }
@@ -9,15 +16,24 @@ table {
   border-collapse: collapse;
   width: 25%;
 }
-th {
-  height: 70px;
+p{
+  margin: auto;
 }
-.center {
-  margin-left:40%;
-  margin-right:15%;
+.center{
+  margin: auto;
 }
+.txt_center{
+  display: block;
+  height: 58px;
+  width: 3000px;
+  margin: 0 auto;
+  margin-left: 40%;
+}
+
 body{
-  background-color:black;
+  background-image: url("fond.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
   color: white;
   cursor: url('totoro.cur'), pointer;
 }
